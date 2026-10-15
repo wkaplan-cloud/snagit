@@ -3,7 +3,7 @@ import { createAdminClient } from '@/lib/supabase/admin'
 import { Resend } from 'resend'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
-const FROM = 'noreply@snagitapp.co.za'
+const FROM = 'noreply@in.onsiteapp.co.za'
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://snagitapp.co.za'
 
 export async function GET(

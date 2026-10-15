@@ -5,7 +5,7 @@ import { isPlatformOwner } from '@/lib/isPlatformOwner'
 import { Resend } from 'resend'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
-const FROM = 'noreply@snagitapp.co.za'
+const FROM = 'noreply@in.onsiteapp.co.za'
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://snagitapp.co.za'
 
 // POST { inviteId } — extend an invite by 7 days and resend the email
